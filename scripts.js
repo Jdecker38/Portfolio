@@ -30,3 +30,21 @@ function openPopup(popupId) {
 function closePopup(popupId) {
     document.getElementById(popupId).style.display = 'none';
 }
+// Welcome Screen Functionality
+document.addEventListener('DOMContentLoaded', () => {
+    const welcomeScreen = document.getElementById('welcome-screen');
+    const launchButton = document.getElementById('launch-button');
+    const rocket = document.querySelector('.rocket img');
+
+    // Handle Launch Button Click
+    launchButton.addEventListener('click', () => {
+        // Trigger rocket launch animation
+        rocket.style.animation = 'launch 2s ease forwards';
+
+        // Fade out welcome screen after rocket animation
+        setTimeout(() => {
+            welcomeScreen.classList.add('fade-out');
+        }, 2000); // Matches rocket animation duration
+    });
+});
+
