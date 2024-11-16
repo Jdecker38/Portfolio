@@ -468,3 +468,20 @@ body {
 }
 
 /* Add more content-specific styling as needed */
+/* Centering Rocket and Launch Button */
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px; /* Adds spacing between elements */
+}
+
+.rocket img {
+    display: block;
+    margin: 0 auto;
+}
+
+#launch-button {
+    margin: 0 auto;
+}
