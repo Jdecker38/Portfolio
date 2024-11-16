@@ -368,7 +368,7 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #0d1b2a;
+    background: url('images/twinkle.gif') center/cover no-repeat;
     color: white;
     display: flex;
     flex-direction: column;
