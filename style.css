@@ -51,7 +51,7 @@ body {
 }
 
 /* Rocket Animation */
-.rocket img {images/rocket.png
+.rocket img {
     width: 100px;
     position: relative;
     animation: none;
