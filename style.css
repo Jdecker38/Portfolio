@@ -117,7 +117,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 80px 20px;
-    background-color: #122c49;
+    background-color: rgba(18, 44, 73, 0.8);
     color: #e0f7ff;
 }
 
@@ -160,7 +160,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 80px 20px;
-    background-color: #0d1b2a;
+    background-color: rgba(13, 27, 42, 0.8);
     color: #e0f7ff;
     gap: 50px;
 }
@@ -220,7 +220,7 @@ body {
 /* Services and Projects Section */
 .services-projects-section {
     padding: 80px 20px;
-    background-color: #122c49;
+    background-color: rgba(18, 44, 73, 0.8);
     color: #e0f7ff;
     text-align: center;
 }
@@ -233,7 +233,7 @@ body {
 }
 
 .service-item, .project-item {
-    background-color: #0d1b2a;
+    background-color: rgba(13, 27, 42, 0.9);
     border-radius: 10px;
     padding: 10px; /* Reduced padding */
     text-align: center;
@@ -266,7 +266,7 @@ body {
 /* Contact Section */
 .contact-section {
     padding: 80px 20px;
-    background-color: #0d1b2a;
+    background-color: rgba(13, 27, 42, 0.8);
     color: #e0f7ff;
 }
 
